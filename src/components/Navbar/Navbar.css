@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.navbar{
+ height: 130px;
+ background-color: #e8f1f3;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+#prateek-logo {
+ height: 120px;
+ margin:auto;
+ border-radius: 10px;
+ margin-left: 400px;
+}
+
+.set{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 300px;
+}
+
+#search{
+  padding: 14px 26px;
+  background-color: #41798b;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color .4s;
+  font-size: 14px;
+  color: white;
+  font-weight: bolder;
+}
+.search{
+  padding: 10px;
+}
+#search:hover{
+  background-color: #e2ae47;
+}
+
+#get-care-now{
+  padding: 14px 26px;
+  background-color: #41798b;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.4s;
+  font-size: 14px;
+  font-weight: bolder;
+  color: white;
+}
+.get-care-now{
+  padding: 10px;
+}
+#get-care-now:hover{
+  background-color: #e2ae47;
+}
+
+.phone-number{
+  color: black;
+  font-weight: bolder;
+}
+.phone-number{
+  padding: 10px;
+}
+#phone-number:hover{
+  color: #00451a;
+}
